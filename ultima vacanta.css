@@ -1,0 +1,107 @@
+body {
+  background-image: url("1.jpg");
+  display: block;
+  margin: 45px;
+  font-family: Arial, sans-serif;
+  color: white;
+  height: 940px;
+}
+
+div div {
+  height: 52px;
+  background-color: none;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+h2, ul {
+  display: inherit;
+  display: inline;
+}
+
+li {
+  display: inline;
+  float: right;
+  background-color: none;
+  color: white;
+  font-size: 16px;
+  margin-top: 18px;
+  padding: 8px;
+}
+
+li a:hover {
+  color: red;
+}
+
+li>a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+div>p {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+article {
+  text-indent: 15px;
+}
+
+
+/*button cc*/
+
+.discover {
+  background-color: red;
+  margin: 8px 0px 8px 0px;
+  border-radius: 6px;
+  padding: 15px 50px;
+  border: 0;
+  display: inline-block;
+}
+
+.discover:hover {
+  background-color: #d00202;
+}
+
+.discover a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+/*Inceput de chenar, plasat in stinga*/
+
+#formular {
+  float: right;
+  width: 320px;
+  height: 450px;
+  background-color: rgba(53, 48, 48, 0.88);
+  padding: 18px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial, sans-serif;
+}
+
+input[type=text] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: rgba(53, 48, 48, 0.88);
+  color: white;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8 18px 8 18px;
+  border-radius: 6px;
+  /* box-sizing: border-box;*/
+  border: none;
+  background-color: blue;
+  color: white;
+}
